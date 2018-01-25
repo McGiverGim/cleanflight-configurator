@@ -1690,6 +1690,24 @@
     "gpsSignalQty": {
         "message": "Cantidad"
     },
+    "motorsVoltage": {
+        "message": "Voltaje:"
+    },
+    "motorsADrawing": {
+        "message": "Amperaje:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Amp. consumidos:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motores"
     },
@@ -1760,7 +1778,7 @@
         "message": "Maestro"
     },
     "motorsNotice": {
-        "message": "<strong>Aviso Modo Test de Motor \/ Armado:<\/strong><br \/>Mover los controles deslizantes o armar la aeronave con el transmisor provocará que los motores <strong>giren<\/strong>.<br \/>Para evitar lesiones <strong class=\"message-negative\">quita TODAS las hélices<\/strong> antes de utilizar esta funcionalidad.<br \/>Activar el modo test de motor también desactivará temporalmente la Protección de Despegue Incontrolado, para evitar que desarme la aeronave mientras esta en el banco de pruebas sin hélices.<br \/>"
+        "message": "<strong>Aviso Modo Test de Motor \/ Armado:<\/strong><br \/>Mover los controles deslizantes o armar la aeronave con el transmisor provocará que los motores <strong>giren<\/strong>.<br \/>Para evitar lesiones <strong class=\"message-negative\">quita TODAS las hélices<\/strong> antes de utilizar esta funcionalidad.<br \/>Activar el modo test de motor también desactivará temporalmente la Protección de Despegue Incontrolado, para evitar que desarme la aeronave mientras está en el banco de pruebas sin hélices.<br \/>"
     },
     "motorsEnableControl": {
         "message": "<strong>Entiendo los riesgos<\/strong>, las hélices están quitadas - activar control de motor y armado y desactivar la Protección de Despegue Incontrolado."
@@ -2927,6 +2945,21 @@
     },
     "osdSetupOpenFont": {
         "message": "Abrir Archivo de Fuente"
+    },
+    "osdSetupLogo": {
+        "message": "Logo en fuente:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Reemplazar Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "La imagen personalizada para el logo debe ser de 288×72 píxeles conteniendo sólo píxeles blancos y negros en un fondo completamente verde."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Tamaño de imagen no válido; se esperaba $1×$2 en vez de $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "La imagen contiene una paleta de colores no válida (sólo se permite verde, blanco y negro)"
     },
     "osdSetupUploadFont": {
         "message": "Cargar Fuente"

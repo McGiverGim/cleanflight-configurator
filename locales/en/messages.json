@@ -57,6 +57,9 @@
     "language_ca": {
         "message": "Catal\u00e0 (ca)"
     },
+    "language_cs": {
+        "message": "\u010Ce\u0161tina (cs)"
+    },
     "language_de": {
         "message": "Deutsch (de)"
     },
@@ -66,8 +69,23 @@
     "language_es": {
         "message": "Espa\u00f1ol (es)"
     },
+    "language_fi": {
+        "message": "Suomi (fi)"
+    },
     "language_fr": {
         "message": "Fran\u00e7ais (fr)"
+    },
+    "language_gl": {
+        "message": "Galego (gl)"
+    },
+    "language_he": {
+        "message": "\u05E2\u05D1\u05E8\u05D9\u05EA (he)"
+    },
+    "language_hu": {
+        "message": "Magyar (hu)"
+    },
+    "language_id": {
+        "message": "Bahasa Indonesia (id)"
     },
     "language_it": {
         "message": "Italiano (it)"
@@ -80,6 +98,21 @@
     },
     "language_lv": {
         "message": "Latvie\u0161u (lv)"
+    },
+    "language_pl": {
+        "message": "Polski (pl)"
+    },
+    "language_pt": {
+        "message": "Portugu\u00EAs (pt)"
+    },
+    "language_ru": {
+        "message": "\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (ru)"
+    },
+    "language_sv": {
+        "message": "Svenska (sv)"
+    },
+    "language_tr": {
+        "message": "T\u00FCrk\u00E7e (tr)"
     },
     "language_zh_CN": {
         "message": "\u7b80\u4f53\u4e2d\u6587 (zh_CN)"

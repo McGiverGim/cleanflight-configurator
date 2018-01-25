@@ -2116,6 +2116,9 @@
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "Firmware no carregat"
     },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Firmware Local Carregat ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "L'arxiu HEX sembla corrupte"
     },
@@ -2146,6 +2149,34 @@
     "ledStripButtonSave": {
         "message": "Desa"
     },
+    "ledStripColorSetupTitle": {
+        "message": "Configuració de color",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "Restant",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "Neteja la selecció",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "Neteja-ho tot",
+        "description": "In the LED STRIP, clear all leds"
+    },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">desada<\/span>"
     },
@@ -2158,11 +2189,147 @@
     "ledStripFunctionTitle": {
         "message": "Funció"
     },
+    "ledStripFunctionNoneOption": {
+        "message": "Cap",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionColorOption": {
+        "message": "Color",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "Modes &amp; Orientació",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "Estat d'armat",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "Bateria",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "Anell",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripColorModifierTitle": {
         "message": "Modificador de color"
     },
-    "ledStripThrottleFunction": {
-        "message": "Throttle"
+    "ledStripModeColorsTitle": {
+        "message": "Colors del mode"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Orientació",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Mode lliure",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Horizon",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Angle",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Mag",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Baro",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "O",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "U",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "D",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesOrientationTitle": {
+        "message": "Orientació del LED ('Modes &amp; Orientació') i Color",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Colors especials",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Desarmat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Armat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Animació",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Parpellejar fons",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: cap SAT",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: no ubicat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: ubicat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "Cablejat de la Tira LED",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Mode d'Ordenació de Cablejat",
+        "description": "One of the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Esborrar selecció",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Esborra TOT el cablejat",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "Els LEDs sense nombre d'ordenació no es desaran.",
+        "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
         "message": "Larson scanner"
@@ -2757,6 +2924,21 @@
     },
     "osdSetupOpenFont": {
         "message": "Obrir un arxiu de Font"
+    },
+    "osdSetupLogo": {
+        "message": "Logo a la font:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Reemplaçar Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "La imatge personalitzada ha de ser de 288×72 píxels de mida contenint, només, píxels blancs i negres sobre un fons verd."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Mida de la imatge invàlida; s'esperava $1×$2 en comptes de $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "La imatge conté una paleta de colors invàlida (només verd, negre i blanc són permesos)"
     },
     "osdSetupUploadFont": {
         "message": "Pujar Font"
