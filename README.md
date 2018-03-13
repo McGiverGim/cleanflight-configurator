@@ -27,7 +27,7 @@ Download the installer from [Releases.](https://github.com/betaflight/betaflight
 
 [![available in the Chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/betaflight-configurator/kdaghagfopacdngbohiknlhcocjccjao)
 
-1. Visit [Chrome web store](https://chrome.google.com/webstore/detail/betaflight-configurator/kdaghagfopacdngbohiknlhcocjccjao)
+1. Visit the [Betaflight Configurator product page in the Chrome web store](https://chrome.google.com/webstore/detail/betaflight-configurator/kdaghagfopacdngbohiknlhcocjccjao)
 2. Click **+ Add to Chrome**
 
 Please note - the application will automatically update itself when new versions are released.  Please ensure you maintain configuration backups as described in the Betaflight documentation.
@@ -130,3 +130,5 @@ We accept clean and reasonable patches, submit them!
 ctn - primary author and maintainer of Baseflight Configurator from which Cleanflight Configurator project was forked.
 
 Hydra -  author and maintainer of Cleanflight Configurator from which this project was forked.
+
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/betaflight-configurator/localized.svg)](https://crowdin.com/project/betaflight-configurator)
