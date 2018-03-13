@@ -131,4 +131,4 @@ ctn - primary author and maintainer of Baseflight Configurator from which Cleanf
 
 Hydra -  author and maintainer of Cleanflight Configurator from which this project was forked.
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/betaflight-configurator/localized.svg)](https://crowdin.com/project/betaflight-configurator)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/betaflight-configurator/localized.svg?)](https://crowdin.com/project/betaflight-configurator)
